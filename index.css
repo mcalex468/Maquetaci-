@@ -1,0 +1,50 @@
+.principal {
+    width: 100%;
+    height: auto;
+}
+
+article {
+    background-color: #e9e9e9;
+    margin: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+article:hover {
+    background-color: #d4d4d4;
+}
+
+
+main section div {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between; 
+    gap: 20px; 
+    padding: 20px;
+
+}
+
+main section div img {
+    width: 30%; 
+    height: auto; 
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #f57979;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: center; 
+    gap: 20px; 
+    flex-wrap: wrap;
+}
+
+footer img {
+    width: 50px;
+    height: auto;
+}
