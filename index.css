@@ -31,7 +31,7 @@ main section div img {
 }
 
 footer {
-    background-color: #f57979;
+    background-color: #333;
     color: #fff;
     padding: 20px;
     text-align: center;
@@ -39,12 +39,12 @@ footer {
 
 footer div {
     display: flex;
-    justify-content: center; 
-    gap: 20px; 
-    flex-wrap: wrap;
+    flex-direction:row; /* Cambia la dirección de las imágenes a columna */
+    align-items: center; /* Centra las imágenes horizontalmente */
+    gap: 20px; /* Espacio entre las imágenes */
 }
 
 footer img {
-    width: 50px;
+    width: 100px; /* Ajusta el tamaño de las imágenes */
     height: auto;
 }
