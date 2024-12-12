@@ -1,14 +1,12 @@
-ul li {
-    background-color: #f0f0f0;
-    margin: 10px 0;
-    padding: 10px;
+nav ul li .boton {
+    background-color: #333;
+    border: none;
+    padding: 10px 20px;
     border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100px;
 }
-
-ul li:hover {
-    background-color: #e0e0e0;
-}
-
 form {
     display: block;
     width: 100%;
