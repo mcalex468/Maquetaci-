@@ -25,7 +25,7 @@ nav ul li .boton {
 
 .contenedor {
     display: flex;
-    flex-wrap: wrap; /* Permite que los elementos se ajusten a la siguiente fila si no caben */
+    flex-wrap: wrap; /* elementos a la siguiente fila si no caben */
     gap: 20px; /* Espaciado entre los elementos */
     margin: 0 auto; /* Centra el contenedor horizontalmente */
     max-width: 1200px; /* Opcional: Define un ancho máximo para el contenedor */
