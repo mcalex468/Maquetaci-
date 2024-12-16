@@ -33,33 +33,27 @@ nav ul li .boton {
   }
   
   .estructura1 {
-    flex: 0 0 48%; /* Ocupa el 48% del contenedor (2 bloques en una fila) */
-    background-color: #f0f0f0; /* Color de fondo para visualizar */
+    flex: 48%; /* Ocupa el 48% del contenedor (2 bloques en una fila) */
+    background-color:  #f4f4f4; /* Color de fondo para visualizar */
     border-radius: 8px; /* Bordes redondeados */
     padding: 10px; /* Espaciado interno */
     box-sizing: border-box; /* Para que el padding no afecte el tamaño total */
     text-align: center; /* Centrar texto e imágenes dentro */
   }
   
-  .estructura {
-    flex: 0 0 33,3%; /* Ocupa el 30% del contenedor (3 bloques en una fila) */
-    background-color: #ffffff; /* Color de fondo para visualizar */
-    border-radius: 8px; /* Bordes redondeados */
-    padding: 10px; /* Espaciado interno */
-    box-sizing: border-box
+  .contenedor .estructura1 img {
+    float: left; /* Posiciona la imatge a l'esquerra */
+    margin-right: 15px; 
+    max-width: 150px;
+    height: auto; 
   }
-  
-  .estructura1 {
-    flex: 0 0 48%; /* Ocupa el 48% del contenedor (2 bloques en una fila) */
-    background-color: #f0f0f0; /* Color de fondo para visualizar */
-    border-radius: 8px; /* Bordes redondeados */
-    padding: 10px; /* Espaciado interno */
-    box-sizing: border-box; /* Para que el padding no afecte el tamaño total */
-    text-align: center; /* Centrar texto e imágenes dentro */
+
+  .tituloIzq {
+    text-align: left;
   }
-  
+
   .estructura {
-    flex: 0 0 30%; /* Ocupa el 30% del contenedor (3 bloques en una fila) */
+    flex: 30%; /* Ocupa el 30% del contenedor (3 bloques en una fila) */
     background-color: #ffffff; /* Color de fondo para visualizar */
     border-radius: 8px; /* Bordes redondeados */
     padding: 10px; /* Espaciado interno */
@@ -67,14 +61,7 @@ nav ul li .boton {
     text-align: center; /* Centrar texto e imágenes dentro */
   }
   
-  .estructura1 {
-    background-color: #e0e0e0; /* Color diferente para los elementos de la estructura1 */
-  }
-  
-  .estructura {
-    background-color: #ffffff; /* Color diferente para los elementos de la estructura */
-  }
-  
+
 
 .footer {
     display: flex;
@@ -96,4 +83,19 @@ nav ul li .boton {
   .footer3 {
     text-align: right; /* Alineación derecha */
   }
-  
+
+
+.footer .botones button {
+  background-color: black; 
+  color: white; 
+  border-radius: 5px; 
+  padding: 5px 10px; 
+  margin: 0 5px; 
+  font-size: 12px; 
+}
+
+.footer .botones button:hover {
+  background-color: white; 
+  color: black; 
+  border: 1px solid black; 
+}
