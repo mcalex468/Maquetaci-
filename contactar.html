@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="ca">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="stylesheet" href="contactar.css">
 </head>
+
 <body>
     <header>
         <img src="img/logo-humans.png" alt="Imagen de diseño" class="main-image">
@@ -26,6 +28,7 @@
             <h2>Contacta amb Nosaltres</h2>
             <form action="submit" method="post">
                 <p>Si creus que falta cap informació , o vols aportar / col·laborar amb nosaltres, contacta'ns.</p>
+<<<<<<< HEAD
                 <p>Tots/es tenim altres responsabilitats així que potser triguem a contestar, però... prometem fer-ho!</p>
                 <label for="nom">Nom:</label>
                 <input type="text" id="nom" name="nom" placeholder="Nom" required>
@@ -34,12 +37,45 @@
                 <label for="consulta">Consulta:</label>
                 <textarea id="consulta" name="consulta" placeholder="Escriu la teva consulta aquí..." rows="5" required></textarea>
                 <button type="submit">Enviar</button>
+=======
+                <p>Tots/es tenim altres responsabilitats així que potser triguem a contestar, però... prometem fer-ho!
+                </p>
+                <div class="contenedorForm">
+                <label for="nom" class="form1">Nom:</label>
+                <label for="email" class="form1">Correu electrònic:</label>
+                <label for="consulta" class="form1">Consulta:</label>
+                <button type="submit" class="form2">Enviar</button>
+
+                <input type="text" class="form2" name="nom" placeholder="Nom" required>
+                <input type="email" class="form2" name="email" placeholder="Correu electrònic" required>
+                <textarea id="consulta" class="form2" name="consulta" 
+                placeholder="Escriu la teva consulta aquí..."rows="5" required></textarea>
+               
+                </div>
+>>>>>>> 57b358d (commit)
             </form>
         </section>
     </main>
-    
     <footer>
-        <p>&copy; 2024 Empresa X. Tots els drets reservats.</p>
+        <div class="footer">
+            <section class="footer1">
+                <p>Creus que falta alguna cosa?</p>
+                <img src="img/spotify.png" alt="Spotify">
+                <div class="botones">
+                    <button>@</button>
+                    <button>T</button>
+                    <button>F</button>
+                </div>
+            </section>
+            <section class="footer2">
+                <img src="img/humanstxt-isolated-blank.gif" alt="Humans.txt">
+                <img src="img/ico-html5.png" alt="HTML5">
+            </section>
+            <section class="footer3">
+                <img src="img/CC.png" alt="Creative Commons">
+            </section>
+        </div>
     </footer>
 </body>
+
 </html>

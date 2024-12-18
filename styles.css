@@ -29,10 +29,42 @@ header nav ul li a {
     text-decoration: none;
 }
 
-footer {
-    text-align: center;
-    background-color: #f4f4f4;
-    color: rgb(0, 0, 0);
-    padding: 10px 0;
+
+
+.footer {
+    display: flex;
+    justify-content: space-between; /* Espacio entre las secciones */
+    align-items: center; /* Centra verticalmente */
+    padding: 20px; /* Añade espacio alrededor */
+    background-color: #f4f4f4; /* Fondo del footer */
+  }
+  
+  .footer section {
+    flex: 1; /* Cada sección ocupa el mismo ancho */
+    text-align: center; /* Centra el contenido dentro de cada sección */
+  }
+  
+  .footer1 {
+    text-align: left; /* Alineación izquierda */
+  }
+  
+  .footer3 {
+    text-align: right; /* Alineación derecha */
+  }
+
+
+.footer .botones button {
+  background-color: black; 
+  color: white; 
+  border-radius: 5px; 
+  padding: 5px 10px; 
+  margin: 0 5px; 
+  font-size: 12px; 
+}
+
+.footer .botones button:hover {
+  background-color: white; 
+  color: black; 
+  border: 1px solid black; 
 }
 
