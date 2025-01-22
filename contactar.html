@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacta'ns - Empresa X</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="contactar.css">
 </head>
 
@@ -23,28 +24,33 @@
             </ul>
         </nav>
     </header>
+    
     <main>
-        <section>
-            <h2>Contacta amb Nosaltres</h2>
-            <form action="submit" method="post">
-                <p>Si creus que falta cap informació , o vols aportar / col·laborar amb nosaltres, contacta'ns.</p>
-                <p>Tots/es tenim altres responsabilitats així que potser triguem a contestar, però... prometem fer-ho!
-                </p>
-                <div class="contenedorForm">
-                <label for="nom" class="form1">Nom:</label>
-                <label for="email" class="form1">Correu electrònic:</label>
-                <label for="consulta" class="form1">Consulta:</label>
-                <button type="submit" class="form2">Enviar</button>
+        <h1>Contacta amb nosaltres</h1>
 
-                <input type="text" class="form2" name="nom" placeholder="Nom" required>
-                <input type="email" class="form2" name="email" placeholder="Correu electrònic" required>
-                <textarea id="consulta" class="form2" name="consulta" 
-                placeholder="Escriu la teva consulta aquí..."rows="5" required></textarea>
-               
-                </div>
-            </form>
-        </section>
+        <p>Si creus que falta cap informació, o vols aportar / col·laborar amb nosaltres, contacta'ns.</p>
+        <p>Tots/es tenim altres responsabilitats així que potser triguem a contestar, però... prometem fer-ho!</p>
+
+        <form>
+            <div>
+                <label for="nom">Nom <span class="asterisco">*</span></label>
+                <input type="text" id="nom" required>
+            </div>
+
+            <div>
+                <label for="email">E-Mail <span class="asterisco">*</span></label>
+                <input type="email" id="email" required>
+            </div>
+
+            <div>
+                <label for="consulta">Consulta <span class="asterisco">*</span></label>
+                <textarea id="consulta" required></textarea>
+            </div>
+
+            <button class="btn" type="submit">ENVIAR</button>
+        </form>
     </main>
+
     <footer>
         <div class="footer">
             <section class="footer1">
